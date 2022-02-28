@@ -22,7 +22,11 @@ namespace lab5
         }
         static void GetChips(ref int row, ref int column)
         {
-            
+            for(int rnd =0; rnd < column; rnd++)
+            {
+                Console.Write("0");
+            }
+            Console.WriteLine("");
         }
         static void StackedChips(ref int row, ref int column)
         {
